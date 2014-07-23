@@ -40,8 +40,8 @@ links:
     url: /Python/
   - title: Java
     url: /Java/  
-  - title: Etymology
-    url: /etymology/
+  - title: Linux
+    url: /Linux/
   - title: C/C++
     url: /cpp/
   - title: C51
@@ -53,7 +53,7 @@ links:
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Chongqing
+timezone:    Asia/Beijing
 future:      true
 pygments:    true
 markdown:    kramdown
