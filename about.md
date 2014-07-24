@@ -4,7 +4,7 @@ permalink: /about/
 title: About this blog
 image:
   feature: about.jpg
-  credit: Michael Rose
+  Bart.Simpson
   creditlink: 
 ---
 大家好，这是我的博客，我将在这里和大家分享学习笔记和新知识。
