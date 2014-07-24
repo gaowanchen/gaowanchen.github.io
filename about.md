@@ -4,7 +4,6 @@ permalink: /about/
 title: About this blog
 image:
   feature: about.jpg
-  Bart Simpson
   credit: Bart.Simpson
   creditlink: 
 ---
