@@ -37,6 +37,34 @@
             <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
         <span class="social-share-googleplus">
             <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
+			
+			
+
+        <!-- 分享至人人 -->
+        <script type="text/javascript" src="http://widget.renren.com/js/rrshare.js"></script>
+        <span class="social-share-renren">
+            <a onclick="shareClick()" href="javascript:;" itemprop="Renren"><i class="icon-renren"></i> 分享到人人</a>
+        </span>
+
+        <script type="text/javascript">
+          function shareClick() {
+            var rrShareParam = {
+              resourceUrl : '', //分享的资源Url
+              srcUrl : '',  //分享的资源来源Url,默认为header中的Referer,如果分享失败可以调整此值为resourceUrl试试
+              title : '{{ page.title }}',   //分享的标题
+              description : ''  //分享的详细描述
+            };
+            {% if page.image.feature %} 
+              rrShareParam["pic"] = '{{ site.url }}/images/{{ page.image.feature }}';  //分享的主题图片Url -> feature image非空则放
+            {% endif %}  
+            rrShareOnclick(rrShareParam);
+          }
+        </script>
+			
+			
+			
+			
+			
             <!-- /.social-share -->{% endif %}
       </footer>
       <div class="entry-content">
