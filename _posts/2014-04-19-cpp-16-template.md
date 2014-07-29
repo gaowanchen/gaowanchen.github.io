@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "《C++primer》16章 模板与泛型编程"
+title: "C++primer--16章--模板与泛型编程"
 category: cpp
 tags: [C/C++,answer]
 modified: 2014-02-21

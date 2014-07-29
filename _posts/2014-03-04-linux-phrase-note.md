@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《Linux phrasebook》learning note----基础命令篇
+title: Linux phrasebook--learning note----基础命令篇
 category: other
 tags: [linux,shell]
 modified: 2014-03-04
