@@ -3,7 +3,7 @@ layout: page
 title: Latest Posts
 ---
 <ul class="post-list"> <!--<ul>无序列表,并调用一个post-list的css样式。-->
-{% for post in site.posts limit:10 %} 
+{% for post in site.posts limit:20 %} 
   <li> <!--列表标签 -->
   	<article> <!--<article> 标签规定独立的自包含内容。 -->
   		<a href="{{ site.url }}{{ post.url }}"> <!--<a href="">创建超链接</a> -->
@@ -15,7 +15,7 @@ title: Latest Posts
   			</span>
   		</a>
   	</article>
-	<span class="excerpt">{{ post.excerpt }}</span>
+	<!--<span class="excerpt">{{ post.excerpt }}</span>-->
   </li>
 {% endfor %}
 </ul>
