@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "《30天自制操作系统》DAY0-DAY1"
+title: "<<30天自制操作系统>>DAY0-DAY1"
 category: other
 tags: [操作系统，计算机，编程]
 image:
