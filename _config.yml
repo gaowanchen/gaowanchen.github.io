@@ -36,6 +36,8 @@ bing_verify:
 links:
   - title: Home
     url: 
+  - title: Algorithm
+    url: /algorithm/
   - title: Android
     url: /Android/
   - title: C/C++
